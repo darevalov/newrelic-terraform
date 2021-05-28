@@ -86,7 +86,7 @@ resource "newrelic_one_dashboard" "this" {
 
   # Dynamic DashBoard Page (Dynamic Block)
   dynamic "page" {
-    for_each = var.microservices
+    for_each = var.dynamic_pages
     content {
       name = page.value.page_name
       widget_area {
