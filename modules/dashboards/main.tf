@@ -25,7 +25,7 @@ variable "modyo_app_guid" {
   type = string
 }
 
-variable "microservices" {
+variable "dynamic_pages" {
   type = map
 }
 
