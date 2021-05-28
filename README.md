@@ -1,2 +1,1 @@
-# copec-newrelic
-# newrelic-terraform
+# Si necesita ayuda, presione F1
